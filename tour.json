@@ -1,0 +1,152 @@
+{
+    "version": 1,
+    "temporalGroups": [
+        {
+            "id": "Tour",
+            "name": "Tour",
+            "type": "tour",
+            "description": "",
+            "autoConnectColocated": true,
+            "colocatedRadius": 3,
+            "multiselect": false,
+            "exclusiveTemporalSubgroups": false
+        }
+    ],
+    "spatialGroups": [
+        {
+            "id": "Winter Tour",
+            "name": "Winter",
+            "type": "singleshot",
+            "timeslot": "2022-01-14T23:00:00.000Z",
+            "description": "",
+            "superGroup": "Tour",
+            "path": "",
+            "vertices": [
+                {
+                    "id": "2022-01-15_50.232649,11.696840_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        50.232648550104074,
+                        11.696839666225479
+                    ],
+                    "path": "50.232649, 11.696840",
+                    "data": {
+                        "type": "multiresrec",
+                        "hdr": true,
+                        "vaov": 180,
+                        "multiRes": {
+                            "tileResolution": 1024,
+                            "maxLevel": 5,
+                            "path": "%l0/%x_%y",
+                            "extension": "exr",
+                            "originalWidth": 16384,
+                            "originalHeight": 8192
+                        }
+                    }
+                },
+                {
+                    "id": "2022-01-15_50.232338,11.697196_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        50.23233752106454,
+                        11.69719648664154
+                    ],
+                    "path": "50.232338, 11.697196",
+                    "data": {
+                        "type": "multiresrec",
+                        "hdr": true,
+                        "vaov": 180,
+                        "multiRes": {
+                            "tileResolution": 1024,
+                            "maxLevel": 5,
+                            "path": "%l0/%x_%y",
+                            "extension": "exr",
+                            "originalWidth": 16384,
+                            "originalHeight": 8192
+                        }
+                    },
+                    "outgoingEdges": [
+                        {
+                            "id": "2022-01-15_50.232338,11.697196_panorama to 2022-01-15_50.232649,11.696840_panorama route",
+                            "to": "2022-01-15_50.232649,11.696840_panorama",
+                            "type": "route",
+                            "bidirectional": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Autumn Tour",
+            "name": "Autumn",
+            "type": "singleshot",
+            "timeslot": "2021-10-02T22:00:00.000Z",
+            "description": "",
+            "superGroup": "Tour",
+            "path": "",
+            "vertices": [
+                {
+                    "id": "2021-10-03_50.232355,11.697196_panorama",
+                    "type": "panorama",
+                    "coordinates": [
+                        50.232354629655006,
+                        11.697195961453534
+                    ],
+                    "path": "50.232355, 11.697196",
+                    "data": {
+                        "type": "multiresrec",
+                        "hdr": true,
+                        "vaov": 180,
+                        "multiRes": {
+                            "tileResolution": 1024,
+                            "maxLevel": 5,
+                            "path": "%l0/%x_%y",
+                            "extension": "exr",
+                            "originalWidth": 16384,
+                            "originalHeight": 8192
+                        },
+                        "northOffset": -4.118974242072507
+                    }
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "map": {
+            "center": [
+                50.232316271760105,
+                11.69719532132149
+            ],
+            "zoom": 19,
+            "minZoom": 19,
+            "maxBounds": {
+                "_southWest": {
+                    "lat": 50.23119759260548,
+                    "lng": 11.695579290390016
+                },
+                "_northEast": {
+                    "lat": 50.23343664037505,
+                    "lng": 11.698814034461975
+                }
+            }
+        },
+        "timeline": {
+            "max": "2022-03-16T01:29:11.425Z",
+            "min": "2021-08-16T20:02:31.425Z",
+            "end": "2022-03-16T01:29:11.425Z",
+            "start": "2021-08-16T20:02:31.425Z",
+            "selections": [
+                "Autumn Tour"
+            ]
+        },
+        "panorama": {
+            "scene": "2021-10-03_50.232355,11.697196_panorama",
+            "yaw": -0.7106587477737252,
+            "pitch": 1.6606471739044792,
+            "hfov": 119.99999999999987
+        }
+    },
+    "map": {
+        "backgrounds": []
+    }
+}
